@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -9,6 +11,13 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Edu+SA+Beginner&family=Poppins:wght@300;500&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <style>
       * {
@@ -65,7 +74,7 @@
       .leftsection {
         font-size: 2.6rem;
       }
-      .leftsection .btn{
+      .leftsection .btn {
         padding: 10px;
         background-color: transparent;
         color: white;
@@ -75,16 +84,16 @@
         cursor: pointer;
         transition: all 0.2s ease-in;
       }
-      .btn a{
+      .btn a {
         text-decoration: none;
         color: white;
       }
-      .btn a:hover{
-         color: red;
+      .btn a:hover {
+        color: red;
       }
-      .btn:hover{
+      .btn:hover {
         background-color: rgb(150, 207, 188);
-        color: red
+        color: red;
       }
       .rightsection img {
         width: 80%;
@@ -98,7 +107,7 @@
       .secondsection {
         max-width: 80vw;
         margin: auto;
-        height: 80vh;
+        height: 160vh;
       }
       .secondsection h1 {
         font-size: 1.9rem;
@@ -119,49 +128,131 @@
       .textgrey {
         color: gray;
       }
-      .image-top{
+      .image-top {
         width: 29px;
         position: relative;
         top: -32px;
         left: -9px;
       }
-      .vertical-title{
+      .vertical-title {
         position: relative;
-         top: 75px;
-         width: 150px;
-         font-size: 0.9rem;
+        top: 75px;
+        width: 150px;
+        font-size: 0.9rem;
       }
-      .vertical-desc{
+      .vertical-desc {
         position: relative;
         top: 86px;
         color: gray;
         width: 150px;
         font-size: 9px;
       }
-      footer{
-       background-color: #0e0e1a;
-       
-
-      }
-      .footer{
+      /* Add CSS styling for the footer */
+      .footer {
+        background-color: #333;
+        color: #fff;
+        padding: 43px 0;
         display: flex;
-        padding: 23px 122px;
-        justify-content: space-evenly;
+        justify-content: center;
+        align-items: center;
       }
-      .footer ul{
-        list-style: none;
-      }
-      .footer>div{
-        width: 223px;
-      }
-      footer .footer-rights{
-        text-align: center;
-        color: gray;
-        padding: 12px 0;
-        
-      }
-    </style>
 
+      .footer h4 {
+        color: #fff;
+      }
+
+      .footer p {
+        font-size: 16px;
+      }
+
+      .contact-info {
+        list-style: none;
+        padding: 0;
+      }
+
+      .contact-info li {
+        margin-bottom: 10px;
+      }
+
+      .social-icons {
+        list-style: none;
+        padding: 0;
+      }
+
+      .social-icons li {
+        display: inline-block;
+        margin-right: 10px;
+      }
+      .col-md-6 h4 {
+        margin-top: 18px;
+        color: #9c97f1;
+        font-size: 1.2rem;
+      }
+      .footer a:hover {
+        text-decoration: underline;
+      }
+
+      .social-icons a {
+        color: #fff;
+        font-size: 24px;
+        text-decoration: none;
+      }
+      .social-icons i {
+        width: 30px;
+        height: 39px;
+      }
+      .footer-rights {
+        color: gray;
+        position: relative;
+        top: 19px;
+        text-align: center;
+      }
+      .education-Section{
+         position: absolute; 
+        top: 1200px;
+        left: 100px; 
+        font-size: 1.2rem;
+        /* bottom: 300px; */
+      }
+      .education-Section-Button{
+        height: 50px;
+        width: 12rem;
+        border-radius: 12px;
+        font-size: large;
+        background-color: bisque;
+        transition: all 0.5s ease-in-out;
+        display: block;
+      }
+      .education-Section-Button:hover{
+         cursor: pointer;
+         background-color:aqua;
+         font-size: larger;
+      }
+      th{
+        padding: 30px 90px;
+        padding-bottom: 10px;
+        font-size: 20px;
+      }
+      td{
+        padding-top: 10px;
+        padding-left: 85px;;
+        font-size: 15px;
+      }
+      .tdper{
+        padding-left: 110px;
+      }
+      .tdyear{
+       padding-left: 98px;
+      }
+      .education-Section hr{
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 40px 84px; 
+      }
+
+      /* Add additional styling as needed */
+    </style>
   </head>
   <body>
     <header>
@@ -187,10 +278,12 @@
           <span id="element"></span>
           <div class="buttons">
             <button class="btn">
-             <a href="https://www.linkedin.com/feed/">LinkedIn profile</a>
+              <a href="https://linkedin.com/in/shubhamkhanapure7 "
+                >LinkedIn profile</a
+              >
             </button>
             <button class="btn">
-             <a href="">Visit Github</a> 
+              <a href="https://github.com/15shubhs/My_projects">Visit Github</a>
             </button>
           </div>
         </div>
@@ -198,7 +291,7 @@
           <img src="bg.png.png" alt="" />
         </div>
       </section>
-      <hr />
+      <hr/>
       <section class="secondsection">
         <span class="textgrey">What I have done so far</span>
         <h1>Work experience</h1>
@@ -207,96 +300,192 @@
             <img class="image-top" src="krafton.avif" alt="" />
             <div class="vertical-title">UI designer-krafton(2019-2020)</div>
             <div class="vertical-desc">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Obcaecati facilis quis repellat minus consequatur aliquid
-              similique accusamus quaerat ipsum perspiciatis.
+              As a UI Designer at Krafton Esports, I had the incredible
+              opportunity to shape the visual identity and user experience for
+              some of the biggest esports titles in the world. Working at the
+              intersection of design and gaming.
             </div>
-           </div>
-           <div class="vertical">
+          </div>
+          <div class="vertical">
             <img class="image-top" src="tencent.png" alt="" />
             <div class="vertical-title">UI designer-tencent (2020)</div>
             <div class="vertical-desc">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Obcaecati facilis quis repellat minus consequatur aliquid
-              similique accusamus quaerat ipsum perspiciatis.
+              During my tenure as a UI Designer at Tencent Gaming, I had the
+              privilege of contributing to the success of some of the most
+              renowned and beloved gaming titles in the industry.
             </div>
-          </div> <div class="vertical">
+          </div>
+          <div class="vertical">
             <img class="image-top" src="google.png" alt="" />
             <div class="vertical-title">Web developer-google(2016-2017)</div>
             <div class="vertical-desc">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Obcaecati facilis quis repellat minus consequatur aliquid
-              similique accusamus quaerat ipsum perspiciatis.
+              My journey as a Web Developer at Google was an incredible
+              five-year adventure that allowed me to be at the forefront of
+              innovation in web development. Working alongside some of the
+              brightest minds in the industry.
             </div>
-          </div> <div class="vertical">
+          </div>
+          <div class="vertical">
             <img class="image-top" src="amazon_logo.png" alt="" />
             <div class="vertical-title">Web developer-amazon(2018-2019)</div>
             <div class="vertical-desc">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Obcaecati facilis quis repellat minus consequatur aliquid
-              similique accusamus quaerat ipsum perspiciatis.
+              During my tenure as a Web Developer at Amazon, I had the privilege
+              of being part of one of the world's leading e-commerce and
+              technology companies. My journey was filled with exciting
+              challenges.
             </div>
-          </div> <div class="vertical">
+          </div>
+          <div class="vertical">
             <img class="image-top" src="flipcart.avif" alt="" />
-            <div class="vertical-title">Software developer-flipcart(2021-2022)</div>
-            <div class="vertical-desc">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Obcaecati facilis quis repellat minus consequatur aliquid
-              similique accusamus quaerat ipsum perspiciatis.
+            <div class="vertical-title">
+              Software developer-flipcart(2021-2022)
             </div>
-          </div> <div class="vertical">
+            <div class="vertical-desc">
+              My journey as a Software Developer at Flipkart was a thrilling
+              ride through the dynamic world of e-commerce and technology. As
+              part of Flipkart's engineering team.
+            </div>
+          </div>
+          <div class="vertical">
             <img class="image-top" src="youtube.png" alt="" />
             <div class="vertical-title">Software developer-youtube(2023)</div>
             <div class="vertical-desc">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Obcaecati facilis quis repellat minus consequatur aliquid
-              similique accusamus quaerat ipsum perspiciatis.
-            </div>
-          </div>        
+              My journey as a Software Developer at YouTube was an exhilarating
+              experience, marked by innovation and a commitment to providing
+              users with the best video-sharing and streaming platform.
+            </div>  
+            
+          </div>
+          
+
         </div>
+        
+        
       </section>
+     
+      
     </main>
-    <footer>
-      <div class="footer">
-       <div class="footer-first">
-         Shubh's developer portfolio
-       </div> 
-       <div class="footer-second">
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Service</li>
-          <li>Contact</li>
-        </ul>
-       </div>
-       <div class="footer-third">
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Service</li>
-          <li>Contact</li>
-        </ul>
-       </div>
-       <div class="footer-fourth">
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Service</li>
-          <li>Contact</li>
-        </ul>
-       </div>
-      </div>
-      <div class="footer-rights">
-        Copyright &#169; www.shubh'sportfolio.com | All rights reserved
+    
+     <div  class="education-Section"> tap  on the button below to know my education qualifications
+      
+      <button   class="education-Section-Button" onclick="buttonClick()">Tap to view</button>
+      <hr>
+      <table>
+        <thead>
+          <tr>
+            <th>Class</th>
+            <th>School/university</th>
+            <th>Percentage</th>
+            <th>Duration</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h4>Contact Me</h4>
+            <p>
+              If you'd like to get in touch or collaborate on a project, feel
+              free to reach out:
+            </p>
+            <ul class="contact-info">
+              <li>Email: shubhamkhanapure1234@gmail.com</li>
+              <li>Phone:+91-7972187333</li>
+              <li>
+                LinkedIn:
+                <a
+                  href="https://linkedin.com/in/shubhamkhanapure7"
+                  target="_blank"
+                  >LinkedIn Profile</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h4>Connect With Me</h4>
+            <p>
+              Let's stay connected on social media for updates and interesting
+              discussions:
+            </p>
+            <ul class="social-icons">
+              <li>
+                <a href="https://web.whatsapp.com/" target="_self"
+                  ><i class="fa-brands fa-whatsapp"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/yourusername" target="_blank"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="vhttps://github.com/15shubhs/My_projects"
+                  target="_blank"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-rights">
+          Copyright &#169; www.shubh'sportfolio.com | All rights reserved
+        </div>
       </div>
     </footer>
+
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <!-- Setup and start animation! -->
     <script>
       var typed = new Typed("#element", {
         strings: ["Web Developer", "&amp; a Cricketer"],
         typeSpeed: 50,
-      }); 
+      });
+     var qualification= [{
+      Class:"Secondary class",
+      School:"Shri venktesh vidyalaya, Latur",
+      Per:"65%",
+      Year:"2016-2017",
+    },
+    {
+      Class:"Senior Secondary",
+      School:"jaikranti junior collage, Latur",
+      Per:"52.92%",
+      Year:"2017-2019",
+    },
+    {
+      Class:"Bachelor's degree",
+      School:"SRTM university,Nanded",
+      Per:"76%",
+      Year:"2019-2022",
+    }
+  ];
+      function buttonClick(){
+        for(var data of qualification){
+        var tr=document.createElement("tr");
+        var tdclass=document.createElement("td");
+        var tdSchool=document.createElement("td");
+        var tdPer=document.createElement("td");
+        var tdYear=document.createElement("td");
+
+         tdclass.innerHTML= data.Class;
+         tdSchool.innerHTML=data.School;
+         tdPer.innerHTML=data.Per;
+         tdPer.className="tdper";
+         tdYear.innerHTML=data.Year;
+         tdYear.className="tdyear";
+         
+         tr.appendChild(tdclass);
+         tr.appendChild(tdSchool);
+         tr.appendChild(tdPer);
+         tr.appendChild(tdYear);
+
+         document.querySelector("tbody").appendChild(tr)
+        }
+      }
     </script>
   </body>
 </html>
